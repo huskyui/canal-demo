@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springboot-kafka-canal-demo
+  kafka:
+    bootstrap-servers: 192.168.149.88:9092
+    consumer:
+      auto-offset-reset: earliest
